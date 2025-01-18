@@ -1,0 +1,714 @@
+/*================= 1st-Section =================*/
+body {
+    margin: 0px;
+    font-family:  "Gilroy-Medium","Verdana", sans-serif;
+    font-size:small
+}
+
+#first-section {
+    width: 1440px;
+    height: 1024px;
+    border: 1px solid #0065FE;
+    text-align: center;
+    background: #FFFFFF;
+    background: linear-gradient(170deg,#f9d8d8,#e1f1e2,#e8db9d, #FFFFFF 40%);
+    position: relative;
+} 
+
+#first-section a {
+    color: #0065FE;
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#logo {
+    margin-top: -15px;
+    margin-left: 250px;
+    margin-right: 100px;
+    
+
+
+}
+
+#navbar ul {
+    list-style-type: none;
+}
+
+#navbar ul li {
+    display: inline;
+    padding: 10px;
+    color: #141414;
+    vertical-align: top;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+}
+
+#myurl {
+    color: #0065FE;
+}
+
+#login {
+    margin-left: 100px;
+    color: #0065FE;
+}
+
+#tryforfree {
+    color: #0065FE;
+}
+
+#navbar ul li a:hover {
+    background-color: #0065FE;
+    color: white;
+    border: 1px solid;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    margin-bottom: 1px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #0065FE;
+}
+
+.all-blue-text {
+    color: #0065FE;
+}
+
+#vectordash {
+    width: 110px;
+    margin-left: 25px;
+}
+
+
+#secondbuttons {
+    margin: 50px;
+}
+
+#secondbuttons ul {
+    list-style-type: none;
+}
+
+#secondbuttons ul li {
+    display: inline;
+    padding: 10px;
+}
+
+#secondbuttons ul li a {
+    text-decoration: none;
+    color: #0065FE;
+}
+
+#secondbuttons ul li a:hover {
+    background-color: #0065FE;
+    color: white;
+    border: 1px solid;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+
+#panel_triangle{
+    /*position: absolute;
+    left: 650px;
+    bottom: 200px;*/
+    /*position: relative;
+    bottom: 250px;*/
+    display: flex;
+    align-items: center;
+   
+}
+
+#vectortriangle {
+    position: relative;
+    z-index: 1;
+    left: 510px;
+}
+
+
+#minipanel {
+    border: 1px solid #0065FE;
+    background-color: #FEFEFE;
+    border-radius: 20px;
+    height: 224px;
+    width: 504px; 
+    position: relative;
+    left: 370px;
+    z-index: 2;
+}
+
+#minipanel img {
+    vertical-align: middle;
+    margin-top: 30px;
+    margin-left: -12px;
+}
+
+#arrow {
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+
+span {
+    font-weight: bold;
+}
+
+
+#rectangle9 {
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+
+#ellipse1 {
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+    left: 250px;
+   
+}
+
+/*============================== SECOND SECTION ======================*/
+
+#second-section {
+    width: 1440px;
+    height: 982px;
+    border: 1px solid black;
+}
+
+#second_section_nav {
+    height: 200px;
+    background-color: #F9FBFD;
+}
+
+.stats{
+    display: inline;
+    float: left;
+    width: 190px;
+    height: 200px;
+    padding: 10px;
+    margin-left: 70px; 
+}
+
+.stats h2 {
+    margin-top: 50px;
+}
+
+.stats h3 {
+    margin-top: 50px;
+}
+
+
+#line70 {
+    vertical-align: middle;
+    margin: 20px;
+}
+
+
+.substatspanels{
+    float: left;
+    width: 380px;
+    height: 220px;
+    margin-top: 70px;
+    margin-left: 70px;
+    padding: 10px;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+
+#substatspanelsQRCodes{
+    float: left;
+    width: 380px;
+    height: 220px;
+    margin-top: 70px;
+    margin-left: 540px;
+    padding: 10px;
+}
+
+#second_page_icons {
+    margin-top: 30px;
+}
+
+
+
+/*======================== THIRD SECTION ============================*/
+
+#third-section {
+    width: 1440px;
+    height: 1024px;
+    border: 1px solid #0065FE;
+
+}
+
+#third-section-header{
+    text-align: center;
+}
+
+
+
+#prices {
+    border: 1px solid #005AE2;
+    height: 400px;
+    width: 300px;
+    display: inline;
+    float: left;
+    border-radius: 10px;
+
+}
+
+#prices ul {
+    list-style-type:none;
+
+}
+
+#prices:hover {
+    background-color: #1E3448;
+    color: white;
+    transform: scale(1.2);
+
+}
+
+#check-circle {
+    vertical-align: bottom;
+    padding: 0px;
+}
+
+#check-circle:hover {
+    color: white;
+}
+
+
+#pricesmain {
+    margin-left: 260px;
+    margin-top: 70px;
+    position: absolute;
+}
+
+#pricebuttons{
+position: relative;
+top: 600px;
+left: 500px;
+}
+
+#pricebuttons ul {
+    list-style-type: none;
+}
+
+#pricebuttons ul li {
+    display: inline;
+}
+
+#pricebuttons ul li a {
+    border: 1px solid #0065FE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #0065FE;
+}
+
+#pricebuttons ul li a:hover {
+    color: white;
+    background-color: #0065FE;
+  
+}
+
+/*==================== FOURTH SECTION ===============================*/
+
+#fourth-section {
+    height: 523px;
+    width: 1440px;
+    background-color: #1E3448;
+    color: #0065FE;
+    text-align: center;
+    border: 1px solid #0065FE;
+}
+
+#formbox {
+    height: 355px;
+    width: 476px;
+    background-color: white;
+    margin-top: 84px;
+    margin-bottom: 84px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.forminput {
+    padding-top: 30px;
+}
+
+.data {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 1px solid #0065FE;
+    color: #0065FE;
+
+}
+
+::placeholder {
+    color:#0065FE;
+    opacity: 1; 
+  }
+
+#trim_URL_button {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#trim_URL_button a {
+    border: 1px solid #0065FE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 160px;
+    padding-right: 160px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #0065FE;
+}
+
+
+#trim_URL_button a:hover {
+    color: white;
+    background-color: #0065FE;
+}
+
+#fsv1l {
+    position: absolute;
+    right: 550px;
+    bottom: -90px;
+}
+
+#fsv2l {
+    position: absolute;
+    right: 550px;
+    bottom: -90px;
+}
+
+#fsv3l {
+    position: absolute;
+    right: 430px;
+    bottom: -90px;
+    z-index: 1;
+}
+
+#fsv1r {
+    position: absolute;
+    left: 460px;
+    bottom: -90px;
+}
+
+#fsv2r {
+    position: absolute;
+    left: 550px;
+    bottom: -90px;
+}
+
+/*=================================== FIFTH SECTION ===============================*/
+
+#fifth-section{
+    height: 1153px;
+    width: 1440px;
+    border: 1px solid #0065FE;
+    text-align: center;
+    position: relative;
+
+}
+
+details {
+    padding: 30px;
+    border-bottom: 1px solid black;
+    width: 800px;
+    margin-left: 300px;
+    
+
+}
+
+
+.question {
+    display: flex;  
+    font-weight: bolder;
+ 
+}
+
+.hidden-content {
+    text-align: left;
+    background-color: #f9d8d8;
+    padding: 10px;
+    border: 2px ridge rebeccapurple;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+}
+
+#fiSv1l {
+    position: absolute;
+    bottom: 520px;
+    left: -5px;
+}
+
+#fiSv2l {
+    position: absolute;
+    bottom: 580px;
+    left: -5px;
+}
+
+#fiSv3l {
+    position: absolute;
+    bottom: 520px;
+    left: -5px;
+}
+
+#fiSv1r {
+    position: absolute;
+    bottom: -5px;
+    right: -15px;
+}
+
+#fiSv2r {
+    position: absolute;
+    bottom: -5px;
+    right: -15px;
+}
+
+#fiSv3r {
+    position: absolute;
+    bottom: -5px;
+    right: -15px;
+}
+
+
+
+
+
+/*=============================== SIXTH SECTION ===================================*/
+
+#sixth-section {
+    height: 299px;
+    width: 1440px;
+    border: 1px solid #0065FE;
+    background-color: #1E3448;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+#section-text h2 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-weight:bolder;
+    font-size:xx-large;
+}
+
+#section-text a {
+   text-decoration: none;
+   color: white;
+       
+}
+
+#section-text a:hover {
+    border: 1px solid #0065FE;
+    background-color: #0065FE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;  
+    
+}
+
+#scv1l {
+    position: absolute;
+    left: -5px;
+    bottom: 25px;
+}
+
+#scv2l {
+    position: absolute;
+    left: -5px;
+    bottom: 60px;
+}
+
+#scv3l {
+    position: absolute;
+    left: -5px;
+    bottom: 95px;
+}
+
+#scv1r {
+    position: absolute;
+    right: -50px;
+    bottom: -5px;
+}
+
+#scv2r {
+    position: absolute;
+    right: -40px;
+    bottom: -5px;
+}
+
+#scv3r {
+    position: absolute;
+    right: -15px;
+    bottom: -5px;
+}
+
+/*============================== FOOTER SECTION ===================================*/
+
+#footer {
+    width: 1440px;
+    height: 561px;
+    background-color: #FFFFFF;
+    border: 1px solid #005AE2;
+    color: #112232;
+    font-size: small;
+    font-family:'Gill Sans', sans-serif;
+}
+
+img {
+    margin-top: 20px;
+    padding: 6px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.minipanels{
+    border: 1px solid #FFFFFF;
+    width: 200px;
+    height: 200px;
+    display: inline;
+    float: left;
+    margin-left: 80px;
+    margin-top: 40px;
+
+}
+
+.minipanels ul {
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+.minipanels ul li {
+    text-decoration: none;
+    padding: 2.5px;
+}
+
+#minipanelsResources{
+    border: 1px solid #FFFFFF;
+    width: 200px;
+    height: 200px;
+    display: inline;
+    float: left;
+    margin-left: 360px;
+    margin-top: 30px;
+
+}
+
+#minipanelsResources ul {
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+#minipanelsResources ul li {
+    text-decoration: none;
+    padding: 2.5px;
+}
+
+
+
+
+#footer-text {
+    margin-top: 500px;
+    margin-left: 1045px;
+
+}
+
+#Vector1 {
+    position: relative;
+    bottom:390px;
+    right:70px;
+    transform:rotate(-340.32deg)
+
+}
+
+#Vector2 {
+    position: relative;
+    bottom:450px;
+    right:430px;
+
+}
+
+#Vector3 {
+    position: relative;
+    bottom:470px;
+    right:730px;
+
+}
+
+
+#Vector1LR {
+    position: relative;
+    bottom:470px;
+    left:70px;
+
+}
+
+#Vector2LR {
+    position: relative;
+    bottom:770px;
+    left:1070px;
+
+}
+
+#Vector3LR {
+    position: relative;
+    bottom:770px;
+    left:740px;
+
+}
+
+/*============================== LINK STYLING ==========================*/
+
+body a:link {
+    color: #005AE2;
+    }
+
+
+    a:visited {
+    color:palevioletred;
+
+    }
+
+    a:hover {
+    color: #112232;
+}

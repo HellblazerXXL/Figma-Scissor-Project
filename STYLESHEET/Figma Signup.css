@@ -1,0 +1,263 @@
+body {
+    margin: 0px;
+}
+
+#container {
+    padding: 50px;
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 1440px;
+    height: 784px;
+    border: 1px solid #005AE2;
+    font-size: xx-small;
+    font-family:'Gill Sans', sans-serif;
+    color: #5C6F7F;
+}
+
+#container a {
+    text-decoration: none;
+    color: #005AE2;
+   
+
+}
+
+/*============================ BUTTONS SECTION =====================*/
+#loginbuttons ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#loginbuttons ul li {
+    display: inline;
+}
+
+#loginbuttons ul li a {
+    background-color: #005AE2;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #005AE2;
+    border-radius: 3px;
+    font-size: small;
+    padding: 10px;
+    
+
+}
+
+
+
+#Googlelogo {
+    vertical-align: middle;
+    margin: 5px;
+}
+
+
+#Applelogo {
+    vertical-align: middle;
+    margin: 10px;
+
+}
+
+
+#Signupwithemail ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#Signupwithemail ul a {
+    background-color: #005AE2;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #005AE2;
+    border-radius: 80px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 105px;
+    padding-right: 105px;
+    font-size: smaller;
+}
+
+
+
+/*=================================== FORM SECTION ==================*/
+
+.row input {
+    display: table-cell;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 100px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #005AE2;
+    position: relative;
+
+}
+
+
+#PasswordEye1 {
+    position: absolute;
+    top: 270px;
+    left: 870px;
+    padding: 2.5px;
+
+}
+
+#PasswordEye2 {
+    position: absolute;
+    top: 320px;
+    left: 870px;
+    padding: 2.5px;
+
+}
+
+#OrP {
+     position: relative;
+     display: inline-block;
+     margin: 15px;
+ }
+ 
+ #OrP:before {
+     content: "____________________";
+     position: absolute;
+     top: -5px;
+     left: -110px;
+ }
+ 
+ #OrP:after {
+    content: "____________________";
+    position: absolute;
+    top: -5px;
+    right: -110px;
+ }
+
+/*============================== FOOTER SECTION ===================================*/
+
+#footer {
+    width: 1540px;
+    height: 561px;
+    background-color: #FFFFFF;
+    border: 1px solid #005AE2;
+    color: #112232;
+    font-size: small;
+    font-family:'Gill Sans', sans-serif;
+}
+
+img {
+    margin-top: 20px;
+    padding: 6px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.minipanels{
+    border: 1px solid #FFFFFF;
+    width: 200px;
+    height: 200px;
+    display: inline;
+    float: left;
+    margin-left: 80px;
+    margin-top: 40px;
+
+}
+
+.minipanels ul {
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+.minipanels ul li {
+    text-decoration: none;
+    padding: 2.5px;
+}
+
+#minipanelsResources{
+    border: 1px solid #FFFFFF;
+    width: 200px;
+    height: 200px;
+    display: inline;
+    float: left;
+    margin-left: 360px;
+    margin-top: 30px;
+
+}
+
+#minipanelsResources ul {
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+#minipanelsResources ul li {
+    text-decoration: none;
+    padding: 2.5px;
+}
+
+
+
+
+#footer-text {
+    margin-top: 500px;
+    margin-left: 1150px;
+
+}
+
+#Vector1 {
+    position: relative;
+    bottom:390px;
+    right:70px;
+    transform:rotate(-340.32deg)
+
+}
+
+#Vector2 {
+    position: relative;
+    bottom:450px;
+    right:430px;
+
+}
+
+#Vector3 {
+    position: relative;
+    bottom:470px;
+    right:730px;
+
+}
+
+
+#Vector1LR {
+    position: relative;
+    bottom:470px;
+    left:180px;
+
+}
+
+#Vector2LR {
+    position: relative;
+    bottom:770px;
+    left:1170px;
+
+}
+
+#Vector3LR {
+    position: relative;
+    bottom:770px;
+    left:840px;
+
+}
+
+/*============================== LINK STYLING ===============================*/
+a:link {
+    color: #005AE2;
+    }
+
+
+    a:visited {
+    color:palevioletred;
+
+    }
+
+    a:hover {
+    color: #112232;
+}
